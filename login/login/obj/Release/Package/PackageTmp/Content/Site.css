@@ -1,0 +1,417 @@
+﻿/* ------------------------------
+global styles
+------------------------------ */
+html
+{
+    width:100%;
+    height:100%;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	font: 85% arial, hevetica, sans-serif;
+	text-align: center;
+	color: #333;
+	background: #ddd url(img_39.gif) repeat 0 0;
+	height:100%;
+}
+
+
+
+h2
+{
+	color: #B52C07;
+	font: 140% georgia, times, "times new roman", serif;
+}
+
+h2 a { text-decoration: none; }
+
+h3
+{
+	color: #7d8206;
+	font: 110% georgia, times, "times new roman", serif;
+}
+
+/* ------------------------------
+container styles
+------------------------------ */
+
+#container
+{
+	margin: 0;
+	padding:0;
+	height:100%;
+	width: 100%;
+	text-align: left;
+	background: #f0f0f0;
+	border-collapse:collapse;
+}
+
+/* ------------------------------
+header styles
+------------------------------ */
+
+#header
+{
+	min-height: 53px;
+	width: 100%;
+    position:absolute;
+    z-index:1;
+    top:0;
+	background: #eee;
+	border-bottom: 1px solid #777;
+    padding-top:5px;
+
+}
+
+#header h1
+{
+	position: absolute;
+
+}
+
+a.logoff
+{
+    float:right; 
+    background:url('../Images/control_power.png') no-repeat center right; 
+    display:block; 
+    height:24px; 
+    width:24px;    
+    margin-right:25px;
+}
+
+a.logoff:hover { 
+    text-decoration:none;
+} 
+
+a.logoff span {
+    display:none; 
+    margin:35px 0 0 -15px; 
+    padding:2px 2px; 
+} 
+
+a.logoff:hover span {
+    display:inline; 
+    position:absolute; 
+    border:1px solid #cccccc; 
+    background:#f5f8b9; 
+    color: Black; 
+    font-size:smaller; 
+}
+
+a.profile
+{
+    float:right; 
+    background:url('../Images/report_user.png') no-repeat center right; 
+    display:block; 
+    height:24px; 
+    width:24px;    
+    margin-right:10px;
+    margin-left:10px;
+}
+
+a.profile:hover { 
+    text-decoration:none;
+} 
+
+a.profile span {
+    display:none; 
+    margin:35px 0 0px -25px;
+    padding:2px 2px; 
+} 
+
+a.profile:hover span {
+    display:inline; 
+    position:absolute; 
+    border:1px solid #cccccc; 
+    background:#f5f8b9; 
+    color: Black; 
+    font-size:smaller;
+}
+/* ------------------------------
+logo styles
+------------------------------ */
+
+#logo
+{
+    float:left;
+    margin-top:30px;
+    margin-left:22px;
+    width:100%;
+    height:50px;
+    z-index:3;
+    background: url('../Images/logo_96b2.png') no-repeat;
+}
+/* ------------------------------
+mainnav styles
+------------------------------ */
+#siteinfo
+{
+    float:left;
+    width:100%;
+    min-height:30px;
+    border-bottom:2px solid #a24444;    
+    background:#fff;
+    min-width:600px;
+  
+}
+
+#logoff
+{
+    float:right; 
+    background:url('../Images/control_power.png') no-repeat center right; 
+    display:block; 
+    height:24px; 
+    width:24px;
+}
+
+#mainnav
+{
+    float:left;
+	background: #d3d3d3;
+	color: #272900;
+	margin-top: 3px;
+	min-height:25px;
+	border-bottom:2px solid #b6b6b6;
+	width:100%;
+
+}
+
+.espais
+
+{
+    float:left;
+    height:25px;
+    width:205px;
+}
+
+.altre
+{
+    float:left;
+    height:25px;
+    background:url
+}
+
+.img
+{
+    float:right;
+    height:25px;
+    width:10px;
+    background:url('../Images/separador3.png');
+}
+
+#info
+{
+    float:right;
+    padding:0px;
+    color:#366eae;
+}
+
+#info a
+{
+    color:#366eae;
+    text-decoration:none;
+}
+
+#info a:hover
+{
+    color: Red;
+    text-decoration:underline;
+}
+#info p
+{
+    float:right;
+    margin:0px;
+    padding:2px;
+    height:25px;
+}
+
+
+/* ------------------------------
+menu vertical styles
+------------------------------ */
+
+#menuver
+{
+	width: 200px;
+	height:100%;
+	border-right: 2px solid #b6b6b6;
+    bottom:0;
+    position:absolute;
+    z-index:2;
+    background: url('../Images/menu_gradient4.png') repeat-y;
+    background:#d3d3d3;
+}
+
+
+
+/* ------------------------------
+contents styles
+------------------------------ */
+
+#contents
+{
+    padding-top:70px; 
+    padding-left:210px;
+	margin: 0 0 0 0px;
+	background: #f0f0f0;
+    bottom:0;
+}
+
+
+/* ------------------------------
+footer styles
+------------------------------ */
+
+#footer
+{
+	clear: both;
+	color: #fff;
+	text-align: right;
+	font-size: 90%;
+	background: #a24444;
+	padding: 5px;
+	position:fixed;
+	bottom:0;
+	width:100%;
+    padding-right:10px;
+    z-index:3;
+}
+
+/* forms */
+
+
+fieldset {
+    border:0px;
+    border-top:1px solid #d3d3d3;
+    border-bottom:3px dotted white;
+    border-left:1px solid #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+    
+}
+
+    fieldset legend {
+        display:block;
+        margin-left:25px;
+        font-size:1em;
+        font-weight:500;
+        border: 1px solid #d3d3d3;
+        background:#c2924e;
+        color:#fff;
+        margin-bottom:5px;
+        margin-top:5px;
+        margin-left:25px;
+    }
+    
+    fieldset ol 
+    {
+        padding: 0;
+        list-style: none;
+	    background: #f0f0f0;
+    }
+
+        fieldset ol li {
+            padding-bottom: 2px;
+        }
+
+    fieldset label {
+        display: block;
+        font-size:smaller;
+        font-weight: 600;
+    }
+
+    fieldset label.checkbox {
+        display: inline;
+    }
+
+    fieldset input[type="text"],
+    fieldset input[type="password"] {
+        border: 2px solid #e2e2e2;
+        color: #333;
+        font-size: 1em;
+	    font-family:"Trebuchet MS", Helvetica, sans-serif;        
+        margin: 1px 0 2px 0;
+        padding: 1px;
+        width:100%;
+    }
+
+        fieldset input[type="text"]:focus,
+        fieldset input[type="password"]:focus {
+            border: 2px solid #7ac0da;
+
+        }
+
+    fieldset input[type="submit"] {
+        background-color: #d3dce0;
+        border: 1px solid #787878;
+        cursor: pointer;
+        font-size: 1em;
+	    font-family:"Trebuchet MS", Helvetica, sans-serif;        
+        font-weight: 400;
+        padding: 7px;
+    }
+    
+    fieldset span 
+    {
+        display:block;
+        border:1px solid yellow;
+        height:22px;
+        padding-top:2px;
+        padding-left:2px;
+        padding-right:2px;
+        background:#ffffb4;
+    }
+    
+
+.validation-summary-errors ul li
+{
+     color:Red;
+ 	 background: #f0f0f0;
+}
+
+.formulari
+{
+    background: #f0f0f0;
+}
+
+.fila
+{
+    float:left;
+    width:100%;
+}
+
+
+.columna
+{
+    float:left;
+    padding-right:40px;
+}
+
+.cella
+{
+    float:left;
+    padding-right:10px;
+    margin-left:25px;
+}
+
+.buto
+{
+    float:left;
+    padding-right:10px;
+    margin-left:25px;
+    padding-top:10px; 
+    padding-bottom:5px;
+}
+
+.resultat
+{
+    float:left;
+    padding-right:10px;
+    margin-left:25px;
+    padding-top:10px; 
+    padding-bottom:5px;   
+}
